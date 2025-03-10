@@ -22,9 +22,10 @@ function addNewAQField()
     newNode.setAttribute("rows", 3);
     newNode.setAttribute("placeholder","Enter here");
 
-    let weOb = document.getElementById("aq");
+    let aqOb = document.getElementById("aq");
     let aqAddButtonOb = document.getElementById("aqAddButton");
 
-    weOb.insertBefore(newNode , aqAddButtonOb);
+    aqOb.insertBefore(newNode , aqAddButtonOb);
 
 }
+
