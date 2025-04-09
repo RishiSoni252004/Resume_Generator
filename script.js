@@ -28,4 +28,3 @@ function addNewAQField()
     aqOb.insertBefore(newNode , aqAddButtonOb);
 
 }
-
